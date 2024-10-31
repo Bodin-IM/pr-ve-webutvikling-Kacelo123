@@ -1,0 +1,253 @@
+#Menu{
+    background-color: gold;
+    padding-top: 0%;
+    float: left;
+    width: 100%;
+}
+
+#Site2{
+    float: right;
+    padding-right: 90px;
+    background-color: gold;
+    border: none;
+    height: 80px;
+    font-size: 30px;
+}
+
+#Tittle{
+    padding-left: 90px;
+    background-color: gold;
+    border: none;
+    height: 80px;
+    font-size: 30px;
+}
+
+#Tittle:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#Site2:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.Content1{
+    padding-left: 130px;
+    padding-top: 140px;
+    text-align: center;
+    float: left;
+    width: 30%;
+    color: gold;
+}
+
+.Content2{
+    padding-right: 130px;
+    padding-top: 140px;
+    text-align: center;
+    float: right;
+    width: 30%;
+    color: gold;
+}
+
+#Logo{
+    width: 25%;
+    height: 30%;
+    position: absolute;
+    left: 7.5%;
+    top: 25%;
+}
+
+#Ball{
+    width: 25%;
+    height: 30%;
+    position: absolute;
+    right: 7.5%;
+    top: 25%;
+}
+#Pizzatittle{
+    background-color: magenta;
+    height: 500px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+}
+
+#Balltittle{
+    background-color: magenta;
+    height: 500px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+}
+
+#Pizzatext{
+    background-color: magenta;
+    height: 490px;
+    margin-top: 0%;
+    
+}
+
+#Balltext{
+    background-color: magenta;
+    height: 490px;
+    margin-top: 0%;
+    
+}
+
+#Toptxt{
+    margin: 0%;
+    padding-top: 100px;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 100px;
+}
+
+.Contentother{
+    padding-top: 300px;
+    float: left;
+}
+
+.txts{
+    padding-left: 50px;
+    font-size: 30px;
+}
+#toptxts{
+    font-size: 50px;
+    padding-left: 50px;
+}
+
+.buttons{
+    float: right;
+    padding-right: 50px;
+    padding-top: 350px;
+    padding-bottom: 50px;
+}
+
+
+#guiness{
+    width: 500px;
+    height: 120px;
+    font-size: 50px;
+    background-color:  blueviolet;
+}
+
+#guinessite{
+    width: 500px;
+    height: 120px;
+    font-size: 50px;
+    background-color:  blueviolet;
+    top: 100%;
+}
+#guiness:hover{
+    cursor: pointer;
+    background-color: rgb(116, 36, 192);
+    color: rgb(32, 32, 32);
+}
+
+#guinessite:hover{
+    cursor: pointer;
+    background-color: rgb(116, 36, 192);
+    color: rgb(32, 32, 32);
+}
+
+#img1{
+    width: 30%;
+    height: 15%;
+    padding-left: 110px;
+}
+
+body{
+    margin: 0%;
+    background-color: rgb(212, 79, 212);
+}
+
+.Contents{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 600px){
+    #Tittle{
+        width: 20%;
+        height: 10%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 20px;
+    }
+
+    #Site2{
+        width: 25%;
+        height: 10%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 15px;
+    }
+    #Menu{
+        width: 100%;
+    }
+
+    .Content1{
+        float: none;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 10%;
+    }
+
+    #Logo{
+        width: 85%;
+        height: 40%;
+    }
+    .Content2{
+        float: none;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: 10%;
+    }
+    #Ball{
+        position: absolute;
+        height: 40%;
+        width: 80%;
+        top: 160%;
+        padding-right: 2%;
+        
+
+    }
+
+    #Toptxt{
+        font-size: 50px;
+    }
+
+    .Contentother{
+        padding-top: 80px;
+        padding-right: 5%;
+    }
+
+    .buttons{
+        float: none;
+        padding-top: 100px;
+        padding-right: 7%;
+        padding-left: 30%;
+        align-content: center;
+    }
+
+    #guiness{
+        width: 70%;
+        height: 50%;
+        font-size: 30px;
+    }
+
+    #guinessite{
+        width: 70%;
+        height: 50%;
+        font-size: 30px;
+    }
+
+    #img1{
+        width: 80%;
+        height: 40%;
+        padding-right: 5%;
+        padding-left: 10%;
+    }
+}
